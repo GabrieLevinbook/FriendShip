@@ -33,17 +33,17 @@ Scikit-learn(ML)
 
   ## 🚀 Instruções para rodar o projeto
  1.Instalar o arquivo.zip
- 
+
  2. Extrair o arquivo.zip
-    
  ou
  
- 1. git clone https://github.com/GabrieLevinbook/FriendShip 
- .
- 
- 3. Abrir o diretório no terminal do seu sistema operacional
+ 1. git clone https://github.com/GabrieLevinbook/FriendShip
+  
     
- Digitar no terminal a seguinte ordem
+ 
+    
+ 3. Abrir o diretório no terminal do seu sistema operacional
+
  
 4. Executar Frontend
     
