@@ -56,7 +56,7 @@ Executar Backend
     
 cd ..
 
-cd legalaiAPP
+cd legalAIBackend
 
 pip install django pandas scikit-learn django-cors-headers
 
