@@ -61,7 +61,7 @@
         <span  style={{display:"flex",flexDirection:"row", justifyContent:"center"}}>Nome:{e}</span>
         <span  style={{display:"flex",flexDirection:"row", justifyContent:"center",alignItems:"center"}}>Descrição:{descdata[index]}</span>
         <span  style={{display:"flex",flexDirection:"row", justifyContent:"center"}}>Genero:{generodata[index]}</span>
-        <span  style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>Interreses:{areadata[index].map((e,i)=>( <span>{e +", "}</span> ))}</span>
+        <span  style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>Interesses:{areadata[index].map((e,i)=>( <span>{e +", "}</span> ))}</span>
         <span style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>Similaridade:{Math.floor(similaridadedata[index]*100)}</span>
         </ul>
     </div>
@@ -93,10 +93,11 @@
       </span>
       {/*Inputs para o usuário inserir descrição e gênero */}
       <span style={{display:'flex',flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <span className='labelForm'>Selecione seus interreses</span>
+          <span className='labelForm'>Selecione seus interesses</span>
           <select name="" id="areasIn" value={area[0]}  onChange={(e)=>{const NovaArea = e.target.value
           if(NovaArea && !area.includes(NovaArea) && area.length<=3){
             setarea([...area,NovaArea])
+            console.log(width)
           }
           }}>
           <option value="">Selecione suas areas</option>
@@ -129,12 +130,9 @@
         <ul style={{display:"flex",flexDirection:"row", listStyle:"none"}}>
 
 
-          {width>950 || area.length<3 && <>
         {area.map((e, index)=>(<li style={{display:"flex",flexDirection:"row",justifyContent:"center",alignItems:"center"}} key={index}>{e}</li>))}
           
-          </>
-  }
-
+       
   {(width<950 &&area.length==3) &&<>
     <span style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center", gap:"20px"}}>          
     <li style={{display:"flex",flexDirection:"row",justifyContent:"center",alignItems:"center"}} key={1}>{area[0]}</li>
@@ -180,7 +178,7 @@
         setnomeerro(false)
         return
         }
-        /*Verifica os valores inseridos se algum estiver vazio ele mostra um erro */
+        /*Verifica os valores inseridos se algum estiver vazio ele envia um erro e finaliza a função */
                         fetch('http://127.0.0.1:8000/api/add/', {
                           method: 'POST',
                           headers: {
@@ -216,7 +214,9 @@
                               setnomeerro2(true)
                             }
                           });
-                        
+                        /*Envia os dados inseridos do usuario a API via json, no retorno dessa request a API envia os dados das sugestões também via json,
+                         se os dados estiverem ok o código armazena um array para cada característica o que gera os cards, se não ele printa um erro e se a mensagem do erro for 
+                         "Nome ja esta sendo utilizado" ele manda um erro  */
                                 
       }}>Conectar</button></span>
   </article>

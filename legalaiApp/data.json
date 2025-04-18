@@ -523,5 +523,24 @@
     "Areas": [
       "Programacao"
     ]
+  },
+  "54": {
+    "Nome": "Rose",
+    "Descrição": "Mulher",
+    "Genero": "Feminino",
+    "Areas": [
+      "Geopolitica"
+    ]
+  },
+  "55": {
+    "Nome": "bruno",
+    "Descrição": "amo",
+    "Genero": "Masculino",
+    "Areas": [
+      "Trilhas",
+      "Programacao",
+      "Futebol",
+      "Geopolitica"
+    ]
   }
 }
