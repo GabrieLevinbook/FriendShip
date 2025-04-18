@@ -33,17 +33,20 @@ Scikit-learn(ML)
 
   ## 🚀 Instruções para rodar o projeto
  1.Instalar o arquivo.zip
+ 
  2. Extrair o arquivo.zip
+    
  ou
+ 
  1 git clone https://github.com/GabrieLevinbook/FriendShip 
  
- 3. Abrir o diretório no terminal do seu sistema operacional
+ 4. Abrir o diretório no terminal do seu sistema operacional
  Digitar no terminal a seguinte ordem
- 4. Executar Frontend
+ 5. Executar Frontend
    cd legalAIFrontend
    npm i
    npm run dev
- 5. Executar Frontend
+ 6. Executar Frontend
 
    cd ..
    cd legalaiAPP
