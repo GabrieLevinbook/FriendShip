@@ -39,6 +39,7 @@ Scikit-learn(ML)
  ou
  
  1. git clone https://github.com/GabrieLevinbook/FriendShip 
+ .
  
  3. Abrir o diretório no terminal do seu sistema operacional
     
