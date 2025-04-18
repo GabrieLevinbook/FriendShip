@@ -32,20 +32,19 @@ Scikit-learn(ML)
  com isso o código já estava quase pronto só faltava um sistema de validação de dados, para evitar campos em branco e nomes repetidos
 
   ## 🚀 Instruções para rodar o projeto
- 1.Instalar o arquivo.zip
-
- 2. Extrair o arquivo.zip
+Instalar o arquivo.zip
+Extrair o arquivo.zip
+    
  ou
  
- 1. git clone https://github.com/GabrieLevinbook/FriendShip
+git clone https://github.com/GabrieLevinbook/FriendShip
   
     
  
     
- 3. Abrir o diretório no terminal do seu sistema operacional
+Abrir o diretório no terminal do seu sistema operacional
 
- 
-4. Executar Frontend
+Executar Frontend
     
 cd legalAIFrontend
 
@@ -53,7 +52,7 @@ npm install
 
 npm run dev
 
-5. Executar Backend
+Executar Backend
     
 cd ..
 
@@ -63,4 +62,4 @@ pip install django pandas scikit-learn django-cors-headers
 
 python3 manage.py runserver  # Use apenas `python` no Windows
 
-6. Abra no seu navegador o link http://localhost:5173/
+Abra no seu navegador o link http://localhost:5173/
