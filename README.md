@@ -40,11 +40,11 @@ Scikit-learn(ML)
  
  1. git clone https://github.com/GabrieLevinbook/FriendShip 
  
- 4. Abrir o diretório no terminal do seu sistema operacional
+ 3. Abrir o diretório no terminal do seu sistema operacional
     
  Digitar no terminal a seguinte ordem
  
- 5. Executar Frontend
+4. Executar Frontend
     
 cd legalAIFrontend
 
@@ -52,7 +52,7 @@ npm install
 
 npm run dev
 
- 6. Executar Backend
+5. Executar Backend
     
 cd ..
 
@@ -62,4 +62,4 @@ pip install django pandas scikit-learn django-cors-headers
 
 python3 manage.py runserver  # Use apenas `python` no Windows
 
- 7. Abra no seu navegador o link http://localhost:5173/
+6. Abra no seu navegador o link http://localhost:5173/
