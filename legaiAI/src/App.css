@@ -1,0 +1,152 @@
+/*Estilização da página principal e criação de media queries para deixar o site responsivo*/
+article{
+    padding: 10px;
+    gap: 5vh;
+    height: 100vh;
+    width: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 22px;
+}
+#LadoDI{
+    width: 50VW; height: 100VH;display: flex;flex-direction: column;justify-content: center;background-image: url(./Logo.png);background-size: cover; background-repeat: no-repeat;background-position: center;
+}
+input{
+    width: 30vw;
+    height: 4.5vh;
+    border-radius: 5px;
+    background-color:   #fe7f64;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+textarea{
+    width: 30vw;
+    height: 4.5vh;
+    border-radius: 5px;
+    background-color:   #fe7f64;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+ul{
+    gap:1vw;
+    padding: 0px;
+}
+li{
+    font-size: 13px;
+    background-color: #D91E36;
+    height: 5.5vh;
+    width: 12vh;
+    border-radius: 8px;
+}
+select{
+    width: 30vw;
+    height: 4.5vh;
+    border-radius: 5px;
+    background-color:   #fe7f64;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+button{
+    width: 16vw;
+    height: 5.5vh;
+    border-radius: 5px;
+    background-color:   #fe7f64;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+body {
+    overflow: hidden;
+    padding: 0;
+    background-color: #fc5e4d;
+
+    height: 100vh; 
+    margin: 0; 
+    font-family:  Prompt , sans-serif;
+    font-weight: 100;
+    font-style: normal;
+      
+}
+#AreasDoUsuario{
+    width:20vw;height:35vh;font-size: 14px;
+}
+@media (max-width: 1200px) {
+    li{font-size: 11px;}
+    .labelForm{
+        font-size: 20px;
+    }
+    #AreasDoUsuario{
+        font-size: 13px;
+    }
+    article{
+        width:45vw ;
+    }
+    #LadoDI{
+        width: 55VW; height: 100VH;display: flex;flex-direction: column;justify-content: center;background-image: url(./Logo.png);background-size: 54vw 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    li{
+        font-size: 13px;
+        background-color: #D91E36;
+        height: 5.5vh;
+        width: 10vh;
+        border-radius: 8px;
+    }
+    .labelForm{
+        font-size: 17px;
+    }
+    #AreasDoUsuario{
+        width: 21vw;
+        font-size: 11px;
+    }
+
+    #LadoDI{
+        width: 55VW; height: 100VH;display: flex;flex-direction: column;justify-content: center;background-image: url(./Logo.png);background-size: 59vw 100%;
+    }
+    input{
+        width: 25vw;
+        height: 4.5vh;
+        border-radius: 5px;
+        background-color:   #fe7f64;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    
+    }
+    textarea{
+        width: 25vw;
+        height: 4.5vh;
+        border-radius: 5px;
+        background-color:   #fe7f64;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    select{
+        width: 25vw;
+        height: 4.5vh;
+        border-radius: 5px;
+        background-color:   #fe7f64;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+}
+@media (max-width:600px){
+    .labelForm{
+        font-size: 13px;
+    }
+    button{
+        width: 18vw;
+        font-size: 12px;
+    }
+    #AreasDoUsuario{
+        font-size: 11px;
+        width: 22vw;
+    }
+
+}
+
+@media (max-width:500px){
+    .labelForm{
+        font-size: 11px;
+    }
+    #AreasDoUsuario{
+        font-size: 9px;
+        width: 33vw; height: 29vh;
+    }
+}

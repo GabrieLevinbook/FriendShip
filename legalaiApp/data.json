@@ -1,0 +1,527 @@
+{
+  "1": {
+    "Nome": "Gabriel",
+    "Descricao": "Meu nome e Gabriel sou de Sao Bernardo do Campo gosto de jogar video games e estudar programacao",
+    "Areas": [
+      "Programacao",
+      "Video games",
+      "Matematica",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "2": {
+    "Nome": "Laura",
+    "Descricao": "Sou Laura estudante de design e apaixonada por ficcao e quadrinhos",
+    "Areas": [
+      "Ficcao",
+      "Quadrinhos",
+      "Programacao"
+    ],
+    "Genero": "Feminino"
+  },
+  "3": {
+    "Nome": "Rafael",
+    "Descricao": "Adoro carros academia e jogar futebol com os amigos",
+    "Areas": [
+      "Carros",
+      "Academia",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "4": {
+    "Nome": "Bianca",
+    "Descricao": "Curto robotica programacao e acompanhar noticias de geopolítica",
+    "Areas": [
+      "Robotica",
+      "Programacao",
+      "Geopolítica"
+    ],
+    "Genero": "Feminino"
+  },
+  "5": {
+    "Nome": "João",
+    "Descricao": "Apaixonado por esportes como volei basquete e trilhas ao ar livre",
+    "Areas": [
+      "Volei",
+      "Basquete",
+      "Trilhas"
+    ],
+    "Genero": "Masculino"
+  },
+  "6": {
+    "Nome": "Camila",
+    "Descricao": "Estudo matematica e gosto de xadrez alem de curtir academia",
+    "Areas": [
+      "Matematica",
+      "Xadrez",
+      "Academia"
+    ],
+    "Genero": "Feminino"
+  },
+  "7": {
+    "Nome": "Felipe",
+    "Descricao": "Gosto de video games carros e futebol. Sou de Sao Paulo",
+    "Areas": [
+      "Video games",
+      "Carros",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "8": {
+    "Nome": "Ana",
+    "Descricao": "Sou fa de ficcao cientifica e amo robotica e programacao",
+    "Areas": [
+      "Ficcao",
+      "Robotica",
+      "Programacao"
+    ],
+    "Genero": "Feminino"
+  },
+  "9": {
+    "Nome": "Mateus",
+    "Descricao": "Me interesso por geopolítica matematica e xadrez competitivo",
+    "Areas": [
+      "Geopolitica",
+      "Matematica",
+      "Xadrez"
+    ],
+    "Genero": "Masculino"
+  },
+  "10": {
+    "Nome": "Isabela",
+    "Descricao": "Sou aventureira curto trilhas academia e gosto de basquete",
+    "Areas": [
+      "Trilhas",
+      "Academia",
+      "Basquete"
+    ],
+    "Genero": "Feminino"
+  },
+  "11": {
+    "Nome": "Lucas",
+    "Descricao": "Engenheiro apaixonado por robotica e programacao",
+    "Areas": [
+      "Robotica",
+      "Programacao",
+      "Matematica"
+    ],
+    "Genero": "Masculino"
+  },
+  "12": {
+    "Nome": "Mariana",
+    "Descricao": "Designer que ama quadrinhos e ficcao",
+    "Areas": [
+      "Quadrinhos",
+      "Ficcao",
+      "Programacao"
+    ],
+    "Genero": "Feminino"
+  },
+  "13": {
+    "Nome": "Eduardo",
+    "Descricao": "Sou fa de carros e trilhas e curto muito futebol",
+    "Areas": [
+      "Carros",
+      "Trilhas",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "14": {
+    "Nome": "Juliana",
+    "Descricao": "Professora de matematica praticante de academia e entusiasta de geopolítica",
+    "Areas": [
+      "Matematica",
+      "Academia",
+      "Geopolítica"
+    ],
+    "Genero": "Feminino"
+  },
+  "15": {
+    "Nome": "Diego",
+    "Descricao": "Atleta amador de volei e basquete, tambem gosto de xadrez",
+    "Areas": [
+      "Volei",
+      "Basquete",
+      "Xadrez"
+    ],
+    "Genero": "Masculino"
+  },
+  "16": {
+    "Nome": "Patrícia",
+    "Descricao": "Estudante de ciencia da computacao adoro programacao e ficcao",
+    "Areas": [
+      "Programacao",
+      "Ficcao",
+      "Robotica"
+    ],
+    "Genero": "Feminino"
+  },
+  "17": {
+    "Nome": "Gustavo",
+    "Descricao": "Mecanico que ama carros futebol e academia",
+    "Areas": [
+      "Carros",
+      "Futebol",
+      "Academia"
+    ],
+    "Genero": "Masculino"
+  },
+  "18": {
+    "Nome": "Natália",
+    "Descricao": "Aventureira fan de trilhas e esportes como volei e basquete",
+    "Areas": [
+      "Trilhas",
+      "Volei",
+      "Basquete"
+    ],
+    "Genero": "Feminino"
+  },
+  "19": {
+    "Nome": "Vinícius",
+    "Descricao": "Adoro geopolítica e jogos estrategicos como xadrez",
+    "Areas": [
+      "Geopolitica",
+      "Xadrez",
+      "Matematica"
+    ],
+    "Genero": "Masculino"
+  },
+  "20": {
+    "Nome": "Larissa",
+    "Descricao": "Sou Larissa apaixonada por video games quadrinhos e ficcao",
+    "Areas": [
+      "Video games",
+      "Quadrinhos",
+      "Ficcao"
+    ],
+    "Genero": "Feminino"
+  },
+  "21": {
+    "Nome": "Felipe",
+    "Descricao": "Engenheiro de software que adora programar e jogar basquete",
+    "Areas": [
+      "Programacao",
+      "Basquete",
+      "Academia"
+    ],
+    "Genero": "Masculino"
+  },
+  "22": {
+    "Nome": "Tatiane",
+    "Descricao": "Designer grafica apaixonada por quadrinhos e robotica",
+    "Areas": [
+      "Quadrinhos",
+      "Robotica",
+      "Ficcao"
+    ],
+    "Genero": "Feminino"
+  },
+  "23": {
+    "Nome": "Rodrigo",
+    "Descricao": "Cientista politico adoro geopolítica e matematica",
+    "Areas": [
+      "Geopolitica",
+      "Matematica",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "24": {
+    "Nome": "Carla",
+    "Descricao": "Mae e professora curte xadrez matematica e trilhas",
+    "Areas": [
+      "Xadrez",
+      "Matematica",
+      "Trilhas"
+    ],
+    "Genero": "Feminino"
+  },
+  "25": {
+    "Nome": "André",
+    "Descricao": "Fa de ficcao cientifica adoro robotica e programacao",
+    "Areas": [
+      "Ficcao",
+      "Robotica",
+      "Programacao"
+    ],
+    "Genero": "Masculino"
+  },
+  "26": {
+    "Nome": "Beatriz",
+    "Descricao": "Entusiasta de academia adoro praticar basquete e futebol",
+    "Areas": [
+      "Academia",
+      "Basquete",
+      "Futebol"
+    ],
+    "Genero": "Feminino"
+  },
+  "27": {
+    "Nome": "Vinícius",
+    "Descricao": "Sou apaixonado por carros videogames e futebol",
+    "Areas": [
+      "Carros",
+      "Video games",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "28": {
+    "Nome": "Renata",
+    "Descricao": "Gosto de estudar geopolítica e jogar xadrez",
+    "Areas": [
+      "Geopolitica",
+      "Xadrez",
+      "Ficcao"
+    ],
+    "Genero": "Feminino"
+  },
+  "29": {
+    "Nome": "Marcos",
+    "Descricao": "Programador gosto de matematica robotica e futebol",
+    "Areas": [
+      "Programacao",
+      "Matematica",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "30": {
+    "Nome": "Priscila",
+    "Descricao": "Fico fascinada por geopolítica videogames e xadrez",
+    "Areas": [
+      "Geopolitica",
+      "Video games",
+      "Xadrez"
+    ],
+    "Genero": "Feminino"
+  },
+  "31": {
+    "Nome": "Julio",
+    "Descricao": "Apaixonado por carros esportes e robotica",
+    "Areas": [
+      "Carros",
+      "Robotica",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "32": {
+    "Nome": "Cristina",
+    "Descricao": "Estudante de ciencia politica amo geopolítica e ficcao",
+    "Areas": [
+      "Geopolitica",
+      "Ficcao",
+      "Programacao"
+    ],
+    "Genero": "Feminino"
+  },
+  "33": {
+    "Nome": "Tiago",
+    "Descricao": "Gosto de xadrez trilhas e futebol",
+    "Areas": [
+      "Xadrez",
+      "Trilhas",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "34": {
+    "Nome": "Fernanda",
+    "Descricao": "Programadora e entusiasta de ficcao e robotica",
+    "Areas": [
+      "Programacao",
+      "Ficcao",
+      "Robotica"
+    ],
+    "Genero": "Feminino"
+  },
+  "35": {
+    "Nome": "Igor",
+    "Descricao": "Amo carros videogames e basquete",
+    "Areas": [
+      "Carros",
+      "Video games",
+      "Basquete"
+    ],
+    "Genero": "Masculino"
+  },
+  "36": {
+    "Nome": "Aline",
+    "Descricao": "Sou apaixonada por programacao ficcao e matematica",
+    "Areas": [
+      "Programacao",
+      "Ficcao",
+      "Matematica"
+    ],
+    "Genero": "Feminino"
+  },
+  "37": {
+    "Nome": "Ricardo",
+    "Descricao": "Adoro futebol basquete e videogames",
+    "Areas": [
+      "Futebol",
+      "Basquete",
+      "Video games"
+    ],
+    "Genero": "Masculino"
+  },
+  "38": {
+    "Nome": "Sabrina",
+    "Descricao": "Curto trilhas robotica e xadrez",
+    "Areas": [
+      "Trilhas",
+      "Robotica",
+      "Xadrez"
+    ],
+    "Genero": "Feminino"
+  },
+  "39": {
+    "Nome": "Felipe",
+    "Descricao": "Fascinado por geopolítica ficcao e robotica",
+    "Areas": [
+      "Geopolitica",
+      "Ficcao",
+      "Robotica"
+    ],
+    "Genero": "Masculino"
+  },
+  "40": {
+    "Nome": "Patricia",
+    "Descricao": "Amo academias e jogar futebol",
+    "Areas": [
+      "Academia",
+      "Futebol",
+      "Xadrez"
+    ],
+    "Genero": "Feminino"
+  },
+  "41": {
+    "Nome": "Carlos",
+    "Descricao": "Engenheiro civil apaixonado por xadrez e futebol",
+    "Areas": [
+      "Xadrez",
+      "Futebol",
+      "Carros"
+    ],
+    "Genero": "Masculino"
+  },
+  "42": {
+    "Nome": "Marta",
+    "Descricao": "Curto ficcao cientifica basquete e robotica",
+    "Areas": [
+      "Ficcao",
+      "Basquete",
+      "Robotica"
+    ],
+    "Genero": "Feminino"
+  },
+  "43": {
+    "Nome": "Marcos",
+    "Descricao": "Estudante de historia adoro geopolítica e futebol",
+    "Areas": [
+      "Geopolitica",
+      "Futebol",
+      "Xadrez"
+    ],
+    "Genero": "Masculino"
+  },
+  "44": {
+    "Nome": "Elaine",
+    "Descricao": "Gosto de trilhas e acompanhar as ultimas tendencias de robotica",
+    "Areas": [
+      "Trilhas",
+      "Robotica",
+      "Ficcao"
+    ],
+    "Genero": "Feminino"
+  },
+  "45": {
+    "Nome": "Paulo",
+    "Descricao": "Futebol e videogames adoro xadrez e programacao",
+    "Areas": [
+      "Futebol",
+      "Video games",
+      "Programacao"
+    ],
+    "Genero": "Masculino"
+  },
+  "46": {
+    "Nome": "Jéssica",
+    "Descricao": "Fico fascinada por carros e geopolítica",
+    "Areas": [
+      "Carros",
+      "Geopolitica",
+      "Xadrez"
+    ],
+    "Genero": "Feminino"
+  },
+  "47": {
+    "Nome": "Roberto",
+    "Descricao": "Adoro programacao robotica e futebol",
+    "Areas": [
+      "Programacao",
+      "Robotica",
+      "Futebol"
+    ],
+    "Genero": "Masculino"
+  },
+  "48": {
+    "Nome": "Simone",
+    "Descricao": "Tenho interesse por ficcao quadrinhos e programacao",
+    "Areas": [
+      "Ficcao",
+      "Quadrinhos",
+      "Programacao"
+    ],
+    "Genero": "Feminino"
+  },
+  "49": {
+    "Nome": "Rodrigo",
+    "Descricao": "Estudante de matematica e amante de robotica e geopolítica",
+    "Areas": [
+      "Matematica",
+      "Robotica",
+      "Geopolítica"
+    ],
+    "Genero": "Masculino"
+  },
+  "50": {
+    "Nome": "Sofia",
+    "Descricao": "Sou fa de quadrinhos ficcao e videogames",
+    "Areas": [
+      "Quadrinhos",
+      "Ficcao",
+      "Video games"
+    ],
+    "Genero": "Feminino"
+  },
+  "51": {
+    "Nome": "Gabriel",
+    "Descrição": "fsafs",
+    "Genero": "Feminino",
+    "Areas": [
+      "Xadrez"
+    ]
+  },
+  "52": {
+    "Nome": "Gabriel",
+    "Descrição": "fsafs",
+    "Genero": "Feminino",
+    "Areas": [
+      "Xadrez"
+    ]
+  },
+  "53": {
+    "Nome": "gabriel",
+    "Descrição": "gasd",
+    "Genero": "Feminino",
+    "Areas": [
+      "Programacao"
+    ]
+  }
+}
